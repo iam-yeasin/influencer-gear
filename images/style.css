@@ -1,0 +1,94 @@
+
+
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 500px;
+    margin-top: 40px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.search-cart{
+    display: flex;
+    gap: 25px;
+}
+
+nav a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    align-items: center;
+}
+.main-camera{
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 32px 18px;
+}
+
+/* feature-section */
+
+.feature-section{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 80px;
+}
+
+/* main container */
+.grid-title{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+/* image-text styles */
+.image-text{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 150px;
+}
+/* footer styles */
+
+.footer-section {
+  text-align: center;
+  color: white;
+  background-color: #0A0826;
+  padding: 50px 0;
+  margin-top: 120px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.footer-icons a i {
+  color: white;
+  background-color: #22203B;
+  font-size: 24px;
+  padding: 12px;
+  border-radius: 50%;
+}
