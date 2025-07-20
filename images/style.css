@@ -1,5 +1,6 @@
 
 
+
 /* nav styles */
 nav{
     display: flex;
@@ -91,4 +92,12 @@ nav ul li{
   font-size: 24px;
   padding: 12px;
   border-radius: 50%;
+}
+
+.product-grid{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 200px;
 }
